@@ -81,23 +81,6 @@ export default function Navbar() {
           id="mobile-menu"
           className="md:hidden bg-surface border-t border-outline-variant px-4 py-6 flex flex-col gap-4"
         >
-          <div className="flex items-center gap-2 px-1 pb-3 border-b border-outline-variant mb-2">
-            <Image
-              src="/logospr.png"
-              alt="Logo SPR"
-              width={28}
-              height={28}
-              className="object-contain"
-            />
-            <div className="flex flex-col leading-tight">
-              <span className="font-headline text-headline-md text-primary font-bold">
-                SPR
-              </span>
-              <span className="text-label-md text-on-surface-variant -mt-1">
-                Sang Penguasa Rasa
-              </span>
-            </div>
-          </div>
           {navLinks.map((link) => (
             <a
               key={link.href}
