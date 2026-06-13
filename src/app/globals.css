@@ -1,26 +1,62 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-primary: #8f000d;
+  --color-primary-container: #b22222;
+  --color-on-primary: #ffffff;
+  --color-primary-fixed: #ffdad6;
+  --color-secondary: #8d4f11;
+  --color-secondary-container: #feac67;
+  --color-on-secondary: #ffffff;
+  --color-tertiary: #005021;
+  --color-tertiary-container: #006b2e;
+  --color-on-tertiary-container: #50f280;
+  --color-surface: #fff8f6;
+  --color-surface-container: #ffe9e5;
+  --color-surface-container-low: #fff0ee;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-variant: #fbdcd6;
+  --color-on-surface: #281714;
+  --color-on-surface-variant: #5a403e;
+  --color-outline-variant: #e2beba;
+  --color-inverse-surface: #3f2c28;
+
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-headline: 'Work Sans', sans-serif;
+
+  --font-size-headline-xl: 48px;
+  --font-size-headline-xl--line-height: 56px;
+  --font-size-headline-xl--letter-spacing: -0.02em;
+  --font-size-headline-xl--font-weight: 700;
+
+  --font-size-headline-lg: 32px;
+  --font-size-headline-lg--line-height: 40px;
+  --font-size-headline-lg--letter-spacing: -0.01em;
+  --font-size-headline-lg--font-weight: 700;
+
+  --font-size-headline-lg-mobile: 28px;
+  --font-size-headline-lg-mobile--line-height: 36px;
+  --font-size-headline-lg-mobile--font-weight: 700;
+
+  --font-size-headline-md: 24px;
+  --font-size-headline-md--line-height: 32px;
+  --font-size-headline-md--font-weight: 600;
+
+  --font-size-body-lg: 18px;
+  --font-size-body-lg--line-height: 28px;
+  --font-size-body-lg--font-weight: 400;
+
+  --font-size-body-md: 16px;
+  --font-size-body-md--line-height: 24px;
+  --font-size-body-md--font-weight: 400;
+
+  --font-size-label-md: 14px;
+  --font-size-label-md--line-height: 20px;
+  --font-size-label-md--font-weight: 600;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
