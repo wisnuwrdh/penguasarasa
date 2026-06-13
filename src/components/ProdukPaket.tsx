@@ -66,7 +66,7 @@ export default function ProdukPaket() {
                 </div>
               )}
               <div className="aspect-video rounded-2xl overflow-hidden mb-6">
-                {/* TODO: Ganti dengan foto produk asli */}
+                {/* TODO: Ganti dengan foto produk asli (format .webp) */}
                 <img
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   src={p.img}

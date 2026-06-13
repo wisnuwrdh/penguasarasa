@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-4">
           <div className="flex items-center gap-2">
             <Image
-              src="/logospr.png"
+              src="/logospr.webp"
               alt="Logo SPR"
               width={36}
               height={36}

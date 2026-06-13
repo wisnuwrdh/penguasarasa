@@ -34,7 +34,7 @@ export default function Hero() {
 
         <div className="relative">
           <div className="aspect-square rounded-[40px] overflow-hidden shadow-2xl relative z-10 border-8 border-white">
-            {/* TODO: Ganti dengan foto produk asli */}
+            {/* TODO: Ganti dengan foto produk asli (format .webp) */}
             <img
               className="w-full h-full object-cover"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZrCfv54Z-4k0Urbade3W14Jj1Kppwsgu0PBp9cNiPh5uzNVYHxIzgoa6FEklrAD0B9a-HHbq3Yw9pN5GBjX6JIwcgcemdbTDKTIZtPw0AnqjOi2AlXiUSqh2VqvwP-eaD96FcI1nTmfbJEAoWaw0Yq_H6NjnxZ5BAQwOBxN_TbJ2js8mHok_7Oj_QUTxmf0yW1Bi_Rc2SJWJRxohZPviB9LG6TYOp6eYAIfKLNtrNSFaoosiyYt0EuXX1dJhhWcZtVqRWkbVWUrk"

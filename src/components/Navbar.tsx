@@ -34,7 +34,7 @@ export default function Navbar() {
       <nav className="flex items-center justify-between h-16 max-w-screen-xl mx-auto px-4">
         <a href="#" className="flex items-center gap-2">
           <Image
-            src="/logospr.png"
+            src="/logospr.webp"
             alt="Logo SPR"
             width={36}
             height={36}
