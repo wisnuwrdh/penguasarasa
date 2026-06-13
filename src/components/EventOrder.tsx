@@ -13,8 +13,8 @@ const benefits = [
 export default function EventOrder() {
   return (
     <section id="event" className="py-12 md:py-20 bg-surface-container-low">
-      <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        <div>
+      <div className="max-w-screen-xl mx-auto px-4">
+        <div className="max-w-2xl mx-auto text-center">
           <h2 className="font-headline text-headline-lg-mobile md:text-headline-lg mb-4">
             Punya Acara? Kami Siap Hadir
           </h2>
@@ -52,45 +52,6 @@ export default function EventOrder() {
           <p className="text-label-md text-on-surface-variant mt-4">
             Slot terbatas per hari. Konfirmasi lebih awal, lebih aman.
           </p>
-        </div>
-
-        <div className="grid grid-cols-2 gap-4">
-          <div className="space-y-4">
-            <div className="h-64 rounded-2xl overflow-hidden shadow-lg">
-              {/* TODO: Ganti dengan foto produk asli (format .webp) */}
-              <img
-                className="w-full h-full object-cover"
-                src="/event-1.webp"
-                alt="Suasana event dengan hidangan Bakso Cilok Ayam"
-              />
-            </div>
-            <div className="h-40 rounded-2xl overflow-hidden shadow-lg">
-              {/* TODO: Ganti dengan foto produk asli (format .webp) */}
-              <img
-                className="w-full h-full object-cover"
-                src="/event-2.webp"
-                alt="Tampilan catering Bakso Cilok Ayam untuk acara"
-              />
-            </div>
-          </div>
-          <div className="pt-8 space-y-4">
-            <div className="h-40 rounded-2xl overflow-hidden shadow-lg">
-              {/* TODO: Ganti dengan foto produk asli (format .webp) */}
-              <img
-                className="w-full h-full object-cover"
-                src="/event-3.webp"
-                alt="Tamu menikmati Bakso Cilok Ayam di acara kumpul"
-              />
-            </div>
-            <div className="h-64 rounded-2xl overflow-hidden shadow-lg">
-              {/* TODO: Ganti dengan foto produk asli (format .webp) */}
-              <img
-                className="w-full h-full object-cover"
-                src="/event-4.webp"
-                alt="Set buffet Bakso Cilok Ayam untuk acara komunitas"
-              />
-            </div>
-          </div>
         </div>
       </div>
     </section>
