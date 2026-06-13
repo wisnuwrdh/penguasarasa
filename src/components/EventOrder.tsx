@@ -60,7 +60,7 @@ export default function EventOrder() {
               {/* TODO: Ganti dengan foto produk asli (format .webp) */}
               <img
                 className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1CetEaNHA7xQI3PGItY7bXmpBFV9cD12Oyo76on4HDVSx3VlWkV_9WtDIVhrhRzHhvkYQ3X2v4RcEGOt7VmRvKhiI3qZMokpd5Yth5lPOdi0br2tLWZ59rFbWQP4I17nPOuWdv-kkl-Y5oTE8Eb4ydv3dHoAlsLyrdvyHyLlHWWp9T1BGtUdBzrG1unGY0vf_G1gThU8-YNGymQHv6_yGU8Lxw2YDdZfVophpVNADsAdEAn54MR1k8EMz3_8LbuadW3vKsmyyL3Y"
+                src="/event-1.webp"
                 alt="Suasana event dengan hidangan Bakso Cilok Ayam"
               />
             </div>
@@ -68,7 +68,7 @@ export default function EventOrder() {
               {/* TODO: Ganti dengan foto produk asli (format .webp) */}
               <img
                 className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQcQUzXQpo36NzmhyQFT2DzvdLVL_nNKD2qYtjqjVBMtYGb8tS4nup00iP7nRpKdN1O-duRwbNK3LMA8nrNvnYrKzIw4jNt-V301bw7yZOOHblhSY6qiwL99yYSrwj3kaAaxWO_8GWsO7MRY_BpoDcKQ8RGG9OhSP8vNPNho6fYcAmb5MvbgKtCh9Z8t9OYwO_Dgfg5riJspbvNZ5j986ADSLPVrFm49pwl2uBGUCvmAh2otajE-7YIb-8dYHAmKGugBVSP6lkpLQ"
+                src="/event-2.webp"
                 alt="Tampilan catering Bakso Cilok Ayam untuk acara"
               />
             </div>
@@ -78,7 +78,7 @@ export default function EventOrder() {
               {/* TODO: Ganti dengan foto produk asli (format .webp) */}
               <img
                 className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBP_l5gUIIw5R59TvTXcQMrqcglTmEsFcu4uidhWmtsrV3YNjwzl29qPvpQSb-QJJPX5weRavT0iKAsRineNy7E55PURnl_OQx5lhWviTLAsnt_2PwYoTdivYoFxrSo-Hzo8B73XzIS0cU4Q4DeWChXlabRg84b37-pYd2jqKgraDj81DS9tdmO8Wh-XMtDLZwDfzjFyJS6fVhNSyT_xFlrkEKHeE2ad8ZZM1KbGASUZ98TegJ59t4Xo7-eiDlHWGPFFpUOEmxQcKM"
+                src="/event-3.webp"
                 alt="Tamu menikmati Bakso Cilok Ayam di acara kumpul"
               />
             </div>
@@ -86,7 +86,7 @@ export default function EventOrder() {
               {/* TODO: Ganti dengan foto produk asli (format .webp) */}
               <img
                 className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXdi4uMFR6J-YUouudpF_WgdB31xPbJhiBXJIFReGy0lESOaPThTNpgVX7MpbpPsPnEkWlBlE3etUPPLeQVsR2l3a6SRjmpxCJ42w4QjpOaQLTHvJ_nCNI4ucN4hgfUL2vI1etaDrP2LcpxUqczHMuKzD6oSJAJvYcrV7oaLIVuLXPX2uQpIubaNbK54pfoaCQ7iH157XeodYgj25DcbJ-eVMbZsG9SuYy4yrnrNxu8Ne73XxA0sIf1xJZB197CC-6hGDyz1IL0ew"
+                src="/event-4.webp"
                 alt="Set buffet Bakso Cilok Ayam untuk acara komunitas"
               />
             </div>

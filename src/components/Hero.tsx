@@ -37,7 +37,7 @@ export default function Hero() {
             {/* TODO: Ganti dengan foto produk asli (format .webp) */}
             <img
               className="w-full h-full object-cover"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZrCfv54Z-4k0Urbade3W14Jj1Kppwsgu0PBp9cNiPh5uzNVYHxIzgoa6FEklrAD0B9a-HHbq3Yw9pN5GBjX6JIwcgcemdbTDKTIZtPw0AnqjOi2AlXiUSqh2VqvwP-eaD96FcI1nTmfbJEAoWaw0Yq_H6NjnxZ5BAQwOBxN_TbJ2js8mHok_7Oj_QUTxmf0yW1Bi_Rc2SJWJRxohZPviB9LG6TYOp6eYAIfKLNtrNSFaoosiyYt0EuXX1dJhhWcZtVqRWkbVWUrk"
+              src="/hero.webp"
               alt="Bakso Cilok Ayam dalam mangkuk keramik putih dengan kuah dan taburan bawang goreng"
             />
           </div>
