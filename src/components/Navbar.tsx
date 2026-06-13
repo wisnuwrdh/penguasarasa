@@ -82,15 +82,16 @@ export default function Navbar() {
           onClick={handleNavClick}
           aria-hidden="true"
         >
-          <div className="absolute inset-0 bg-black/40 transition-opacity duration-300" />
+          <div className="absolute inset-0 bg-black/45 transition-opacity duration-300" />
         </div>
       )}
 
       <div
         id="mobile-menu"
-        className={`fixed top-0 right-0 z-50 h-full w-[70vw] max-w-sm bg-surface shadow-2xl md:hidden transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 z-50 h-full bg-surface shadow-2xl md:hidden transform transition-transform duration-300 ${
           mobileOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
+        style={{ width: 'clamp(280px, 75vw, 480px)' }}
       >
         <div className="flex flex-col h-full">
           <div className="flex items-center justify-between px-6 pt-5 pb-4 border-b border-outline-variant">
