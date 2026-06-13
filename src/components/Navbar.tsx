@@ -56,10 +56,11 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href={waLink('Halo SPR, saya mau pesan sekarang')}
+            href={waLink('Halo, saya mau pesan Bakso Cilok Ayam sekarang')}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-primary text-on-primary whitespace-nowrap px-6 py-2.5 rounded-xl font-semibold hover:opacity-90 transition-all active:scale-95 shadow-md"
+            style={{ backgroundColor: '#25D366', color: '#ffffff' }}
+            className="whitespace-nowrap px-6 py-2.5 rounded-xl font-semibold hover:opacity-90 transition-all active:scale-95 shadow-md"
           >
             Pesan Sekarang
           </a>
@@ -92,11 +93,12 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href={waLink('Halo SPR, saya mau pesan sekarang')}
+            href={waLink('Halo, saya mau pesan Bakso Cilok Ayam sekarang')}
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleNavClick}
-            className="bg-primary text-on-primary text-center whitespace-nowrap px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-all active:scale-95 shadow-md mt-2"
+            style={{ backgroundColor: '#25D366', color: '#ffffff' }}
+            className="text-center whitespace-nowrap px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-all active:scale-95 shadow-md mt-2"
           >
             Pesan Sekarang
           </a>

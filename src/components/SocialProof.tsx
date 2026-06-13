@@ -9,7 +9,7 @@ export default function SocialProof() {
             Bukan Baru Buka, Sudah Teruji di Lapangan
           </h2>
           <p className="text-body-md text-on-surface-variant max-w-3xl mx-auto">
-            SPR punya pelanggan yang datang lagi dan lagi, bukan karena
+            Pelanggan kami datang lagi dan lagi, bukan karena
             kebetulan, tapi karena memang enak dan bisa diandalkan. Event order
             sampai 100 porsi pun sudah pernah berjalan.
           </p>

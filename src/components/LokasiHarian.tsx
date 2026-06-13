@@ -13,8 +13,8 @@ export default function LokasiHarian() {
             Cek dulu sebelum keluar rumah.
           </p>
           <p className="text-body-md text-on-surface-variant mb-4">
-            Lokasi gerobak dapat berubah setiap hari. Hubungi WhatsApp untuk
-            tahu lokasi terbaru sebelum datang.
+            Beroperasi di area sekitar. Lokasi harian bisa berubah. Hubungi
+            WhatsApp untuk tahu lokasi terbaru sebelum datang.
           </p>
         </div>
 
@@ -38,7 +38,7 @@ export default function LokasiHarian() {
 
         <div className="mt-12 text-center">
           <a
-            href={waLink('Halo SPR, lokasi jualan hari ini di mana?')}
+            href={waLink('Halo, lokasi jualan hari ini di mana?')}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-primary font-bold hover:underline transition-colors"

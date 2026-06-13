@@ -1,8 +1,9 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import SocialProof from '@/components/SocialProof'
-import TentangSPR from '@/components/TentangSPR'
+import TentangKami from '@/components/TentangSPR'
 import ProdukPaket from '@/components/ProdukPaket'
+import Testimoni from '@/components/Testimoni'
 import EventOrder from '@/components/EventOrder'
 import LokasiHarian from '@/components/LokasiHarian'
 import FAQ from '@/components/FAQ'
@@ -16,8 +17,9 @@ export default function Home() {
       <main>
         <Hero />
         <SocialProof />
-        <TentangSPR />
+        <TentangKami />
         <ProdukPaket />
+        <Testimoni />
         <EventOrder />
         <LokasiHarian />
         <FAQ />

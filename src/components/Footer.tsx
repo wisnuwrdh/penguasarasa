@@ -106,10 +106,11 @@ export default function Footer() {
               Lokasi Jualan
             </a>
             <a
-              href={waLink('Halo+SPR')}
+              href={waLink('Halo')}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-tertiary-container font-bold hover:underline inline-flex items-center gap-2"
+              style={{ color: '#25D366' }}
+              className="font-bold hover:underline inline-flex items-center gap-2"
             >
               <MessageCircle size={16} />
               Chat via WhatsApp

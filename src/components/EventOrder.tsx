@@ -15,10 +15,10 @@ export default function EventOrder() {
       <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           <h2 className="font-headline text-headline-lg-mobile md:text-headline-lg mb-4">
-            Punya Acara? SPR Siap Hadir
+            Punya Acara? Kami Siap Hadir
           </h2>
           <p className="text-body-lg text-on-surface-variant mb-2">
-            Dari arisan sampai acara sekolah. SPR sudah pernah melayani event
+            Dari arisan sampai acara sekolah. Kami sudah pernah melayani event
             sampai 100 porsi. Proses mudah lewat WA.
           </p>
           <p className="text-body-md text-on-surface-variant mb-8">
@@ -39,10 +39,11 @@ export default function EventOrder() {
           </ul>
 
           <a
-            href={waLink('Halo SPR, saya ingin konsultasi untuk event')}
+            href={waLink('Halo, saya ingin konsultasi untuk event Bakso Cilok Ayam')}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-tertiary-container text-on-tertiary-container px-8 py-4 rounded-xl font-bold text-body-lg hover:opacity-90 transition-all active:scale-95 shadow-md"
+            style={{ backgroundColor: '#25D366', color: '#ffffff' }}
+            className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-body-lg hover:opacity-90 transition-all active:scale-95 shadow-md"
           >
             <MessageCircle size={24} />
             Konsultasi Event via WhatsApp

@@ -92,10 +92,11 @@ export default function FAQ() {
             Masih ada pertanyaan?
           </p>
           <a
-            href={waLink('Halo SPR, saya masih punya pertanyaan')}
+            href={waLink('Halo, saya masih punya pertanyaan')}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-surface-variant text-on-surface px-6 py-3 rounded-xl font-bold hover:bg-primary hover:text-on-primary transition-all active:scale-95"
+            style={{ backgroundColor: '#25D366', color: '#ffffff' }}
+            className="inline-flex items-center gap-3 px-6 py-3 rounded-xl font-bold hover:opacity-90 transition-all active:scale-95"
           >
             <MessageCircle size={20} />
             Chat via WhatsApp

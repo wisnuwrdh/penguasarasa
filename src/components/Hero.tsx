@@ -6,27 +6,22 @@ export default function Hero() {
       <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="z-10">
           <h1 className="font-headline text-3xl md:text-headline-xl leading-tight mb-6">
-            Bakso Cilok Ayam yang{' '}
+            Bakso Cilok Ayam Enak,{' '}
             <br className="hidden md:block" />
-            Sudah Dipercaya Selama 3 Tahun.{' '}
-            <br className="hidden md:block" />
-            Kini Hadir dengan Identitas Baru:{' '}
-            <br className="hidden md:block" />
-            SPR (Sang Penguasa Rasa).
+            Pesan Langsung via WA.
           </h1>
-          <p className="text-body-lg text-on-surface-variant mb-4 max-w-[500px]">
-            Nggak perlu nunggu gerobaknya lewat. Pesan langsung, makan hari ini.
+          <p className="text-body-lg text-on-surface-variant mb-2 max-w-[500px]">
+            Sudah 3 tahun melayani. Mulai Rp10.000.
           </p>
           <p className="text-body-md text-on-surface-variant mb-10 max-w-[500px]">
-            Selama 3 tahun pelanggan mengenal kami dari gerobak yang lewat.
-            Sekarang SPR hadir sebagai identitas resmi kami. Pesan jadi lebih
-            mudah, langsung via WhatsApp.
+            Nggak perlu nunggu gerobaknya lewat. Pesan langsung, makan hari ini.
           </p>
           <a
-            href={waLink('Halo SPR, saya mau pesan sekarang')}
+            href={waLink('Halo, saya mau pesan Bakso Cilok Ayam sekarang')}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-tertiary-container text-on-tertiary-container px-8 py-4 rounded-xl font-bold text-body-lg hover:opacity-90 transition-all active:scale-95 shadow-lg"
+            style={{ backgroundColor: '#25D366', color: '#ffffff' }}
+            className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-body-lg hover:opacity-90 transition-all active:scale-95 shadow-lg"
           >
             <span className="text-xl">💬</span>
             Pesan Sekarang via WhatsApp

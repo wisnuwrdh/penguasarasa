@@ -15,9 +15,9 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "SPR (Sang Penguasa Rasa) | Bakso Cilok Ayam, Sudah 3 Tahun Dipercaya",
+  title: "Bakso Cilok Ayam — Sudah 3 Tahun Dipercaya, Sekarang Bisa Dipesan",
   description:
-    "Pesan Bakso Cilok Ayam dari SPR via WhatsApp. Paket harian mulai Rp10.000. Melayani event sampai 100 porsi. Langsung chat, konfirmasi cepat.",
+    "Pesan Bakso Cilok Ayam via WhatsApp. Paket harian mulai Rp10.000. Melayani event sampai 100 porsi. Langsung chat, konfirmasi cepat.",
 }
 
 export default function RootLayout({

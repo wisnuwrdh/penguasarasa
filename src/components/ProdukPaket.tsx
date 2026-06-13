@@ -6,7 +6,7 @@ const paket = [
     title: 'Paket Hemat',
     pcs: 10,
     price: 'Rp10.000',
-    desc: 'Cocok untuk cemilan atau makan sendiri. Isi 10 pcs.',
+    desc: 'Cocok untuk cemilan sendiri atau untuk si kecil. Isi 10 pcs.',
     img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCkylsFRrIDiO5ewrdJhlKr4Ai92vdXSRV1ycTpmdLh1OqW4w8xLiUkpHkDMW-yHOeGkGvqqMb4aTS0uR5seK4WmC3KDplhQvkVW4uy2PmzhBGuvpX2BV5yWaib57Mxn1gy_WJd0zzL04vCOKtjqDsnYvvHE39QJ0aXUF5zdDWvKLpWv3zq4W7ET1WGgrDrhxNLkWtmE6FebMaQGxX6SVrEBOSEYabHeRWdOhwtdF95qmx080Y6S17CICjl50OTVt0DVxZXxnrNEGE',
     alt: 'Penyajian Bakso Cilok Ayam porsi personal dalam mangkuk',
     bestValue: false,
@@ -16,7 +16,7 @@ const paket = [
     title: 'Paket Favorit',
     pcs: 15,
     price: 'Rp15.000',
-    desc: 'Porsi pas untuk dinikmati berdua. Isi 15 pcs.',
+    desc: 'Porsi pas untuk dinikmati berdua atau untuk yang laper. Isi 15 pcs.',
     img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAkYj6OmeMb5z0LdbSuHFpAHzF7Xi7CiK63aqqvnK5MgOHJJtHczZ46vsR-NiTtlL_Vm1lCoJBXU8JRtjATR0JOx21PCLRig-xIKClfbNrT-Rz2rbmhqbzI-tQqm5j8oKKRoPcTkqrWknvupj5oLhP3uTgKWiTlCJBma8o0qv31RxgeRWIKvmFMMP50ulC70ox1RbyIm6KM0NrmvUJzAWJ3MfjYy4uAaC4216lLxxs6d0HhZENLK436LpoHwOOCOxbDLBj8BywTGew',
     alt: 'Bakso Cilok Ayam porsi sharing dengan saus kacang',
     bestValue: false,
@@ -26,7 +26,7 @@ const paket = [
     title: 'Paket Keluarga',
     pcs: 25,
     price: 'Rp25.000',
-    desc: 'Paling hemat. Isi 25 pcs. Cocok untuk keluarga.',
+    desc: 'Paling hemat untuk ramai-ramai. Isi 25 pcs. Cocok untuk keluarga atau kumpul.',
     img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCxkvunrY0B2gnmYl3B4471_Wd7IzhLr_1QnSWFDYs55g6HGgAlLcyvgDk1xz12MpSDvNFZ7GD4i3QgGHOV4_8Z0k51ZmJXCZ258pVZeHQ5tf2wsHDqqokR3TtJZW3u-wRAwxjN7OE9V-2hBNyS2jX5RdwOqEIrx4Sek6TG61blWSG9oGM82fi3W85Q4pRTQdKV1aPXvk3LWnBY9x6XrLaYgH7yZMqWnoGZf6u340sWcx1R6Ii6JBEwL2zz4vSvMvGhWdW2BFBegvc',
     alt: 'Porsi besar Bakso Cilok Ayam untuk keluarga',
     bestValue: true,
@@ -54,7 +54,7 @@ export default function ProdukPaket() {
           {paket.map((p) => (
             <div
               key={p.id}
-              className={`group bg-surface-container-lowest rounded-3xl p-6 border border-outline-variant hover:shadow-xl transition-all duration-300 flex flex-col ${
+               className={`group bg-surface-container-lowest rounded-3xl p-6 border border-outline-variant hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col ${
                 p.bestValue
                   ? 'md:scale-105 ring-2 ring-primary/20 relative'
                   : ''
@@ -83,14 +83,11 @@ export default function ProdukPaket() {
                 {p.price}
               </div>
               <a
-                href={waLink(`Halo SPR, saya mau pesan ${p.title} (${p.pcs} pcs)`)}
+                href={waLink(`Halo, saya mau pesan ${p.title} (${p.pcs} pcs)`)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`w-full py-3 text-center font-bold rounded-xl transition-all duration-200 active:scale-95 whitespace-nowrap mt-auto ${
-                  p.bestValue
-                    ? 'bg-primary text-on-primary hover:opacity-90 shadow-md'
-                    : 'bg-surface-variant text-on-surface hover:bg-primary hover:text-on-primary'
-                }`}
+                style={{ backgroundColor: '#25D366', color: '#ffffff' }}
+                className={`w-full py-3 text-center font-bold rounded-xl transition-all duration-200 active:scale-95 whitespace-nowrap mt-auto hover:opacity-90 shadow-md`}
               >
                 Pesan via WhatsApp
               </a>

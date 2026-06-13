@@ -24,14 +24,15 @@ export default function FinalCTA() {
           kira.
         </p>
         <p className="text-body-md text-on-primary/70 mb-10 max-w-xl mx-auto">
-          Sudah 3 tahun SPR melayani pelanggan yang tahu mana yang enak.
-          Sekarang giliran kamu. Satu chat, langsung beres.
+            Sudah 3 tahun kami melayani pelanggan yang tahu mana yang enak.
+            Sekarang giliran kamu. Satu chat, langsung beres.
         </p>
         <a
-          href={waLink('Halo SPR, saya mau pesan sekarang')}
+          href={waLink('Halo, saya mau pesan Bakso Cilok Ayam sekarang')}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-4 bg-tertiary-container text-on-tertiary-container px-10 py-5 rounded-2xl font-bold text-headline-md hover:opacity-90 transition-all active:scale-95 shadow-2xl"
+          style={{ backgroundColor: '#25D366', color: '#ffffff' }}
+          className="inline-flex items-center gap-4 px-10 py-5 rounded-2xl font-bold text-headline-md hover:opacity-90 transition-all active:scale-95 shadow-2xl"
         >
           <Send size={28} />
           Pesan Sekarang via WhatsApp
