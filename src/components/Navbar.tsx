@@ -88,10 +88,10 @@ export default function Navbar() {
 
       <div
         id="mobile-menu"
-        className={`fixed top-0 right-0 z-50 h-full bg-surface shadow-2xl md:hidden transform transition-transform duration-300 ${
+        className={`fixed top-0 right-0 z-50 h-full shadow-2xl md:hidden transform transition-transform duration-300 ${
           mobileOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
-        style={{ width: 'clamp(280px, 75vw, 480px)' }}
+        style={{ width: 'clamp(280px, 75vw, 480px)', backgroundColor: '#fff8f6' }}
       >
         <div className="flex flex-col h-full">
           <div className="flex items-center justify-between px-6 pt-5 pb-4 border-b border-outline-variant">
