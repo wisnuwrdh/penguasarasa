@@ -78,30 +78,74 @@ export default function Navbar() {
 
       {mobileOpen && (
         <div
-          id="mobile-menu"
-          className="md:hidden bg-surface border-t border-outline-variant px-4 py-6 flex flex-col gap-4"
+          className="fixed inset-0 z-40 md:hidden"
+          onClick={handleNavClick}
+          aria-hidden="true"
         >
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              onClick={handleNavClick}
-              className="text-on-surface-variant font-medium text-lg py-2 hover:text-primary transition-colors"
-            >
-              {link.label}
-            </a>
-          ))}
-          <a
-            href={waLink('Halo SPR, saya mau pesan sekarang')}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={handleNavClick}
-            className="bg-primary text-on-primary text-center whitespace-nowrap px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-all active:scale-95 shadow-md mt-2"
-          >
-            Pesan Sekarang
-          </a>
+          <div className="absolute inset-0 bg-black/40 transition-opacity duration-300" />
         </div>
       )}
+
+      <div
+        id="mobile-menu"
+        className={`fixed top-0 right-0 z-50 h-full w-[70vw] max-w-sm bg-surface shadow-2xl md:hidden transform transition-transform duration-300 ${
+          mobileOpen ? 'translate-x-0' : 'translate-x-full'
+        }`}
+      >
+        <div className="flex flex-col h-full">
+          <div className="flex items-center justify-between px-6 pt-5 pb-4 border-b border-outline-variant">
+            <div className="flex items-center gap-2">
+              <Image
+                src="/logospr.png"
+                alt="Logo SPR"
+                width={32}
+                height={32}
+                className="object-contain"
+              />
+              <div className="flex flex-col leading-tight">
+                <span className="font-headline text-headline-md text-primary font-bold">
+                  SPR
+                </span>
+                <span className="text-label-md text-on-surface-variant -mt-1">
+                  Sang Penguasa Rasa
+                </span>
+              </div>
+            </div>
+            <button
+              onClick={handleNavClick}
+              className="text-on-surface-variant p-1"
+              aria-label="Tutup menu"
+            >
+              <X size={24} />
+            </button>
+          </div>
+
+          <nav className="flex-1 flex flex-col gap-1 px-4 py-6">
+            {navLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={handleNavClick}
+                className="text-on-surface-variant font-medium text-lg py-3 px-3 rounded-xl hover:bg-surface-variant hover:text-primary transition-colors"
+              >
+                {link.label}
+              </a>
+            ))}
+          </nav>
+
+          <div className="px-4 pb-8 pt-4 border-t border-outline-variant">
+            <a
+              href={waLink('Halo SPR, saya mau pesan sekarang')}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={handleNavClick}
+              className="block w-full text-center bg-primary text-on-primary whitespace-nowrap px-6 py-3.5 rounded-xl font-semibold hover:opacity-90 transition-all active:scale-95 shadow-md"
+            >
+              Pesan Sekarang
+            </a>
+          </div>
+        </div>
+      </div>
     </header>
   )
 }
