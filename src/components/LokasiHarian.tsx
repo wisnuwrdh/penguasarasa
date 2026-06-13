@@ -1,4 +1,4 @@
-import { MapPin } from 'lucide-react'
+import { MapPin, Sun, Sunset } from 'lucide-react'
 import { waLink } from '@/lib/wa'
 
 export default function LokasiHarian() {
@@ -20,7 +20,7 @@ export default function LokasiHarian() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
           <div className="p-8 rounded-3xl border-2 border-dashed border-outline-variant bg-surface-container-lowest flex flex-col items-center text-center">
-            <span className="text-5xl text-secondary mb-4">☀️</span>
+            <Sun size={48} className="text-secondary mb-4" />
             <h3 className="font-headline text-headline-md mb-2">Sesi Pagi</h3>
             <p className="text-body-md text-on-surface-variant mb-6">
               08.00 – 12.00
@@ -28,7 +28,7 @@ export default function LokasiHarian() {
           </div>
 
           <div className="p-8 rounded-3xl border-2 border-dashed border-outline-variant bg-surface-container-lowest flex flex-col items-center text-center">
-            <span className="text-5xl text-primary mb-4">🌆</span>
+            <Sunset size={48} className="text-primary mb-4" />
             <h3 className="font-headline text-headline-md mb-2">Sesi Sore</h3>
             <p className="text-body-md text-on-surface-variant mb-6">
               14.00 – 17.00 / 18.00

@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { ChevronDown, MessageCircle } from 'lucide-react'
+import { ChevronDown } from 'lucide-react'
+import WhatsAppIcon from '@/components/WhatsAppIcon'
 import { waLink } from '@/lib/wa'
 
 const faqItems = [
@@ -98,7 +99,7 @@ export default function FAQ() {
             style={{ backgroundColor: '#25D366', color: '#ffffff' }}
             className="inline-flex items-center gap-3 px-6 py-3 rounded-xl font-bold hover:opacity-90 transition-all active:scale-95"
           >
-            <MessageCircle size={20} />
+            <WhatsAppIcon size={20} />
             Chat via WhatsApp
           </a>
         </div>

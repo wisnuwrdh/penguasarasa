@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import { MessageCircle } from 'lucide-react'
 import { waLink } from '@/lib/wa'
+import WhatsAppIcon from '@/components/WhatsAppIcon'
 
 export default function Footer() {
   return (
@@ -112,7 +112,7 @@ export default function Footer() {
               style={{ color: '#25D366' }}
               className="font-bold hover:underline inline-flex items-center gap-2"
             >
-              <MessageCircle size={16} />
+              <WhatsAppIcon size={16} />
               Chat via WhatsApp
             </a>
           </nav>

@@ -1,3 +1,4 @@
+import WhatsAppIcon from '@/components/WhatsAppIcon'
 import { waLink } from '@/lib/wa'
 
 export default function Hero() {
@@ -23,7 +24,7 @@ export default function Hero() {
             style={{ backgroundColor: '#25D366', color: '#ffffff' }}
             className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-body-lg hover:opacity-90 transition-all active:scale-95 shadow-lg"
           >
-            <span className="text-xl">💬</span>
+            <WhatsAppIcon size={24} />
             Pesan Sekarang via WhatsApp
           </a>
           <p className="text-label-md text-on-surface-variant mt-4">

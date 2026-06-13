@@ -1,5 +1,5 @@
-import { Send } from 'lucide-react'
 import { waLink } from '@/lib/wa'
+import WhatsAppIcon from '@/components/WhatsAppIcon'
 
 export default function FinalCTA() {
   return (
@@ -34,7 +34,7 @@ export default function FinalCTA() {
           style={{ backgroundColor: '#25D366', color: '#ffffff' }}
           className="inline-flex items-center gap-4 px-10 py-5 rounded-2xl font-bold text-headline-md hover:opacity-90 transition-all active:scale-95 shadow-2xl"
         >
-          <Send size={28} />
+          <WhatsAppIcon size={28} />
           Pesan Sekarang via WhatsApp
         </a>
         <p className="text-body-md text-on-primary/60 mt-4">

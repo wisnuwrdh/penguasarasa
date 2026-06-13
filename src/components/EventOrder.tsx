@@ -1,4 +1,5 @@
-import { CheckCircle, MessageCircle } from 'lucide-react'
+import { CheckCircle } from 'lucide-react'
+import WhatsAppIcon from '@/components/WhatsAppIcon'
 import { waLink } from '@/lib/wa'
 
 const benefits = [
@@ -45,7 +46,7 @@ export default function EventOrder() {
             style={{ backgroundColor: '#25D366', color: '#ffffff' }}
             className="inline-flex items-center gap-3 px-8 py-4 rounded-xl font-bold text-body-lg hover:opacity-90 transition-all active:scale-95 shadow-md"
           >
-            <MessageCircle size={24} />
+            <WhatsAppIcon size={24} />
             Konsultasi Event via WhatsApp
           </a>
           <p className="text-label-md text-on-surface-variant mt-4">
